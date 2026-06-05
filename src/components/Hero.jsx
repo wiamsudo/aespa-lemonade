@@ -59,7 +59,7 @@ export default function Hero() {
           style={{
             width: "clamp(120px, 25vw, 220px)",
             marginBottom: 20,
-            filter: "drop-shadow(0 0 20px rgba(200,230,0,0.3))",
+            filter: "drop-shadow(0 0 40px rgba(57,255,20,0.3))",
           }}
         />
 
@@ -96,7 +96,7 @@ const s = {
   },
   byText: {
     fontSize: 14, letterSpacing: 6, textTransform: "uppercase",
-    color: "rgba(57,255,20,0.4)", fontWeight: 300, marginBottom: 8,
+    color: "#C1D005", fontWeight: 300, marginBottom: 8,
   },
   date: {
     fontSize: 12, letterSpacing: 6, color: "rgba(255,255,255,0.2)", fontWeight: 400,
