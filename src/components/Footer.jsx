@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer style={s.footer}>
       <Reveal>
-        <img src="/Lemonade.png" alt="LEMONADE" style={{
+        <img src={asset("/Lemonade.png")} alt="LEMONADE" style={{
           width: "clamp(150px, 30vw, 250px)", marginBottom: 12, opacity: 0.8,
           filter: "drop-shadow(0 0 20px rgba(57,255,20,0.3))",
         }} />

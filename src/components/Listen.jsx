@@ -5,7 +5,7 @@ export default function Listen() {
   return (
     <section style={s.section}>
       {/* Decorative */}
-      <img src="/Lemon.png" alt="" style={{
+      <img src={asset("/Lemon.png")} alt="" style={{
         position: "absolute", bottom: "10%", right: "6%",
         width: "clamp(40px, 7vw, 70px)", opacity: 0.15,
         transform: "rotate(-15deg)", pointerEvents: "none",
@@ -14,7 +14,7 @@ export default function Listen() {
 
       <div style={s.inner}>
         <Reveal>
-          <img src="/Aespa_logo.png" alt="" style={{
+          <img src={asset("/Aespa_logo.png")} alt="" style={{
             width: "clamp(80px, 15vw, 130px)", marginBottom: 16, opacity: 0.6,
             filter: "drop-shadow(0 0 10px rgba(57,255,20,0.3))",
           }} />

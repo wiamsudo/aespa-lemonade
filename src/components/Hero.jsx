@@ -28,7 +28,7 @@ export default function Hero() {
       }}>
         {/* Lemon sticker */}
         <img
-          src="/Lemon.png"
+          src={asset("/Lemon.png")}
           alt=""
           style={{
             width: "clamp(80px, 12vw, 120px)",
@@ -41,7 +41,7 @@ export default function Hero() {
 
         {/* LEMONADE logo */}
         <img
-          src="/Lemonade.png"
+          src={asset("/Lemonade.png")}
           alt="LEMONADE"
           style={{
             width: "clamp(300px, 60vw, 700px)",
@@ -55,7 +55,7 @@ export default function Hero() {
 
         {/* aespa logo */}
         <img
-          src="/Aespa_logo.png"
+          src={asset("/Aespa_logo.png")}
           alt="aespa"
           style={{
             width: "clamp(120px, 25vw, 220px)",

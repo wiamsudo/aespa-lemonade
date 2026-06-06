@@ -59,13 +59,13 @@ export default function Tracklist() {
   return (
     <section style={s.section}>
       {/* Decorative stickers */}
-      <img src="/Lemon_2.png" alt="" style={{
+      <img src={asset("/Lemon_2.png")} alt="" style={{
         position: "absolute", top: "5%", right: "5%",
         width: "clamp(50px, 8vw, 90px)", opacity: 0.2,
         transform: "rotate(20deg)", pointerEvents: "none",
         filter: "drop-shadow(0 0 15px rgba(57,255,20,0.3))",
       }} />
-      <img src="/Lemonade.png" alt="" style={{
+      <img src={asset("/Lemonade.png")} alt="" style={{
         position: "absolute", bottom: "8%", left: "3%",
         width: "clamp(100px, 18vw, 180px)", opacity: 0.08,
         transform: "rotate(-8deg)", pointerEvents: "none",
@@ -73,7 +73,7 @@ export default function Tracklist() {
 
       <div style={s.inner}>
         <Reveal>
-          <img src="/Lemon.png" alt="" style={{
+          <img src={asset("/Lemon.png")} alt="" style={{
             width: 45, marginBottom: 16, opacity: 0.7,
             filter: "drop-shadow(0 0 10px rgba(57,255,20,0.4))",
           }} />

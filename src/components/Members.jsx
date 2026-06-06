@@ -60,7 +60,7 @@ function MemberSection({ member, index }) {
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
         >
-          <img src={member.img} alt={member.name} style={{
+          <img src={asset(member.img)} alt={member.name} style={{
             ...s.img,
             transform: hovered ? "scale(1.05)" : "scale(1)",
             filter: hovered ? "brightness(1.1)" : "brightness(0.85) contrast(1.1)",
@@ -82,7 +82,7 @@ function MemberSection({ member, index }) {
 
       {/* Lemon sticker decoration */}
       <img
-        src={lemonSrc}
+        src={asset(lemonSrc)}
         alt=""
         style={{
           position: "absolute",
@@ -101,7 +101,7 @@ function MemberSection({ member, index }) {
       {/* LEMONADE watermark on alternating */}
       {index % 2 === 1 && (
         <img
-          src="/Lemonade.png"
+          src={asset("/Lemonade.png")}
           alt=""
           style={{
             position: "absolute",
