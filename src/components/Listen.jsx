@@ -1,4 +1,5 @@
 import { Reveal } from "./Reveal";
+import { asset } from "../config";
 
 export default function Listen() {
   return (

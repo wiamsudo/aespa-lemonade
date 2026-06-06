@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import { asset } from "../config";
 
 const MEMBERS = [
   { name: "KARINA", role: "Leader · Vocalist · Dancer", img: "/members/Karina.jpg", side: "left" },

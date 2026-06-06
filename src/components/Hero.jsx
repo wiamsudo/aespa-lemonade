@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { asset } from "../config";
 
 export default function Hero() {
   const [loaded, setLoaded] = useState(false);

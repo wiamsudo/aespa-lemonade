@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Reveal } from "./Reveal";
+import { asset } from "../config";
 
 const TRACKS = [
   { num: "01", title: "WDA", sub: "Whole Different Animal", feat: "ft. G-Dragon", badge: "title", dur: "3:30" },
